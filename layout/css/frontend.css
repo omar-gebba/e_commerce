@@ -1,0 +1,375 @@
+/* start main rulez */
+body 
+{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+/* end main rulez */
+
+
+/* start navbar */
+.upper-nav
+{
+    background-color: #eee;
+    padding: 10px;
+}
+.upper-nav a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar
+{
+    border-radius: 0;
+}
+.navbar-inverse .navbar-brand
+{
+    color: rgb(168, 15, 15);
+    font-weight: bolder;
+}
+.navbar-inverse .navbar-brand:hover
+{
+    color: rgb(207, 199, 199);
+}
+
+.dropdown-menu > li > a
+{
+    -webkit-transition: padding .75s ease;
+    -moz-transition: padding .75s ease;
+    -o-transition: padding .75s ease;
+    transition: padding .75s ease;
+}
+.dropdown-menu > li > a:hover
+{
+    background-color: rgb(175, 171, 171);
+    padding-left: 30px;
+    color: #fff;
+}
+.dropdown-toggle
+{
+    background-color: #eee;
+    border: 0;
+}
+.btn-default:focus, .btn-default.focus
+{
+    background-color: #eee;
+}
+.upper-nav img
+{
+    width: 35px;
+    height: 35px;
+}
+.dropdown
+{
+    display: inline;
+}
+       /* the custom dropdown menue */
+.down 
+{
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    padding-right: 13px;
+    margin-left: -8px;
+    margin-top: -10px;
+    border: 1px solid #5f0606;
+    border-radius: 5px;
+    min-width: 110px;
+    min-height: 50px;
+    display:none;
+}   
+.down ul li
+{
+    list-style: none;
+    position: relative;
+    left: -10px;
+    margin-left: -25px;
+}   
+.down ul li a
+{
+    font-size: 14px;
+    text-decoration: none;
+}
+/* end navbar */
+/* start login page */
+div.front-login input
+{
+    max-width: 380px;
+    margin: auto;
+    display: inline;
+}
+div.front-login input.btn
+{
+    margin: 5px auto ;
+}
+div.front-login span{
+    cursor: pointer;
+    padding: 0 20px;
+}
+div.front-login .active
+{
+    color: red;
+    font-size: 1.05em;
+    font-weight: bold;
+    cursor: pointer;
+}
+div.front-login .signup
+{
+    display: none;
+}
+.d-astiresk
+{
+    position: relative;
+}
+span.asterisk
+{
+    color: red;
+    position: absolute;
+    font-size: 2em;
+    right: 8%;
+}
+/* end login page */
+/* start category page */
+.my-div
+{
+    border: 1px solid #ccc;
+    margin-bottom: 
+    20px;
+}
+.my-div img
+{
+   padding: 0;
+   margin: 0;
+   margin-bottom: -40px;
+}
+ span.price
+{
+    position: relative;
+    top: -190px;
+    text-align: left;
+    left: -100px;
+    background-color: #ddd;
+    padding: 1px;
+    border-radius: 8px;
+}
+.my-div div
+{
+   background-color: #ddd;
+   margin-top: -30px;
+   text-align: left;
+   padding: 0 0 0 10px;
+    height: 100px;
+}
+.my-div div h3
+{
+    color: #3d3d89;
+    padding: 10px 0 0 0;
+    text-align: center;
+    margin-top: 40px
+}
+.my-div img
+{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+/* end category page */
+
+/* start profile page */
+.my-div span.profile-span 
+{
+    left: 0;
+}
+
+.information ul
+{
+    margin: 0;
+    padding: 0;
+}
+.information ul li
+{
+    padding: 10px;
+}
+.information ul li:nth-child(odd)
+{
+    background-color: #eee;
+}
+.information ul li span
+{
+    display: inline-block;
+    width: 120px;
+}
+.add-new
+{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+span.pend-aprove
+{
+    background-color: rgba(255,0,0,.6);
+    position: absolute;
+    top: 0;
+    padding: 0 5px;
+    display: block;
+    width: 124px;
+}
+      /* comments */
+.comments .my-div p,
+.comments .my-div span
+{
+    padding: 10px;
+}
+/* end profile page */
+/* start add new page */
+.live-review
+{
+    border: 2px solid #eee;
+}
+.live-preview h3
+{
+    margin:-50px 0 0 10px;
+}
+/* end of add new page */
+/* start items page */
+div.items  h1
+{
+    margin-bottom: 40px;
+    
+}
+div.items .item-data
+{
+    padding: 6px;
+}
+div.items .item-data span
+{
+    display: inline-block;
+    width: 85px;
+}
+div.items .item-data:nth-child(odd)
+{
+    background-color: #eee;
+}
+
+div.items .item-data a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+div.add-comment 
+{
+    padding-left: 20px;
+}
+div.add-comment h3
+{
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+div.add-comment textarea
+{
+    display: block;
+    margin-bottom: 10px;
+    width: 645px;
+    height: 70px;
+    padding: 10px;
+}
+.comment-div li.name
+{
+    font-weight: bolder;
+    background-color: #ccc;
+    display: inline-block;
+    padding: 2px 12px 2px 5px;
+    border-radius: 5px;
+}
+.comment-div li.comment,
+.comment-div span.com-date
+{
+    margin-left: 50px;
+}
+.comment-div li.comment
+{
+    margin-top: 10px;
+}
+.comment-div span.com-date
+{
+    font-size: 13px;
+    font-weight: bolder;
+    color: #aaa5a5;
+}
+div.item-error div.alert-danger:nth-of-type(1)
+{
+    margin-top: 20px;
+}
+.ad-msg 
+{
+    margin-top: 20px;
+    padding: 20px;
+    color: green;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+}
+.hide-msg
+{
+    margin-top: 20px;
+    color: rgb(123, 123, 134);
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    background-color: #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* end items page  */
+
+/* start tags page */
+.tags-div
+{
+    border: 1px solid #ccc;
+    margin-bottom: 
+    20px;
+}
+.tags-div img
+{
+   padding: 0;
+   margin: 0;
+   margin-bottom: -40px;
+}
+ .tags-div span.price
+{
+    position: relative;
+    top: -190px;
+    text-align: left;
+    left: 10px;
+    background-color: #ddd;
+    padding: 1px;
+    border-radius: 8px;
+}
+.tags-div div
+{
+   background-color: #ddd;
+   margin-top: -30px;
+   text-align: left;
+   padding: 0 0 0 10px;
+    height: 100px;
+}
+.tags-div div h3
+{
+    color: blue;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+/* end tags page */
+/* start custom */
+.custom-hr
+{
+    border-top: 1px solid #bcabab;
+}
+.custom-hr:last-of-type
+{
+    display: none;
+}
+/* end custom */

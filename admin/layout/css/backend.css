@@ -1,0 +1,259 @@
+/* start main rulez */
+body 
+{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+/* end main rulez */
+/* start login form */
+.login
+{
+    margin: 100px auto;
+    width: 30%;
+}
+.form-control
+{
+    margin: 5px;
+    background-color: #eaeaea;
+}
+input.btn-block[type="submit"]
+{
+ margin: 5px;
+    
+}
+/* end login form 8 */
+
+/* start navbar */
+.navbar
+{
+    border-radius: 0;
+}
+.navbar-inverse .navbar-brand
+{
+    color: rgb(168, 15, 15);
+    font-weight: bolder;
+}
+.navbar-inverse .navbar-brand:hover
+{
+    color: rgb(221, 54, 54);
+}
+.navbar-nav > li > .dropdown-menu
+{
+    right: auto;
+    left: 0;
+    border-top: 2px solid rgb(168, 15, 15);
+}
+.dropdown-menu > li > a
+{
+    -webkit-transition: padding .75s ease;
+    -moz-transition: padding .75s ease;
+    -o-transition: padding .75s ease;
+    transition: padding .75s ease;
+}
+.dropdown-menu > li > a:hover
+{
+    background-color: rgb(168, 15, 15);
+    padding-left: 30px;
+    color: #fff;
+}
+/* end navbar */
+/*  start dashboard page */
+.dashboard-stats div.row div
+{
+    border: 1px solid #ccc;
+}
+.dashboard-stats div.row div span
+{
+    display: block;
+    font-size: 3em;
+}
+.dashboard-stats div.row div span a
+{
+    text-decoration: none;
+    color: black;
+}
+div.dashboard-stats .st-members
+{
+    background-color: #e74c3c;
+}
+.st-pending
+{
+    background-color: #f39c12;
+}
+.st-items
+{
+    background-color:#f1c40f;
+}
+.st-comments
+{
+    background-color:#e67e22;
+}
+.panel
+{
+    margin-top: 6%;
+}
+ul.latest-user li
+{
+    padding: 5px;
+    overflow: hidden;
+}
+ul.latest-user li:nth-child(odd)
+{
+    background-color: #eee;
+}
+ul.latest-user li a
+{
+    margin-left: 5px;
+}
+/* members page */
+input
+{
+    padding: 5px;
+}
+.marg
+{
+    margin-top: 15px;
+}
+.form-horizontal
+{
+    position: relative;
+}
+.asterisk
+{
+    position: absolute;
+    font-size: 30px;
+    color: rgb(168, 15, 15);
+    right: 100px;
+}
+.table tr:first-child
+{
+background-color: #333;
+color: #fff;
+}
+
+/* dashboards --- comments section  */
+.comments .com-name
+{
+    font-weight: bolder;
+    padding: 5px 10px 5px 5px;
+    display: inline-block;
+}
+.comments .com-comment
+{
+    position: relativ;
+    padding: 5px 5px 5px 40px;
+    background-color: #ddd;
+}
+
+/* end members page */
+
+/* start category page */
+div.panel
+{
+    margin-top: 0;
+}
+.panel-info .panel-heading
+{
+    font-size: 2em;
+    background-color: #275871;
+    color: #fff;
+}
+.panel-heading .ordering 
+{
+    position: relative;
+    color: #fff;
+    font-size: .5em;
+}
+.panel-heading .ordering a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.panel-heading .ordering a.active
+{
+    color: red;
+    font-weight: bold;
+}
+.panel-body .cat-panel
+{
+    padding: 0px;
+}
+
+div.cats
+{
+    padding: 0 10px;  
+    position: relative;
+    overflow: hidden;
+    background-color: #efe9e9;
+}
+
+.cats h3
+{
+    font-size: 23px;
+    color: #1d7395;
+}
+.cats .child-h3
+{
+    font-size: 20px;
+    color: #0a7b7b;
+    margin-top: 10px;
+}
+hr
+{
+    margin-bottom: 0px;
+    border: 0.1px solid;
+    margin: 0 10px;
+}
+div.cats:last-of-type ~ hr
+{
+    display: none;
+}
+div.cats span
+{  
+    padding: 3px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 2px solid;
+    line-height: 3em;
+    cursor: pointer;
+}
+div.cats span.vis
+{
+    background-color: rgb(190, 35, 35);
+}
+div.cats span.com
+{
+    background-color: rgb(1, 19, 1);
+}
+div.cats span.ads
+{
+    background-color: rgb(173, 162, 7);
+}
+div.cats div.btns-hidden
+{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition:  .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+    position: absolute;
+    right: -200px;
+    top: 30%;
+}
+div.cats div.btns-hidden a
+{
+    margin-right: 10px;
+}
+div.cats:hover div.btns-hidden
+{
+    right: 1px;
+    top: 30%;
+}
+.cats a.child-delete
+{
+    color: red;
+    font-size: 14px;
+    margin-left: 15px;
+    display: none;
+}
